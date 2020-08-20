@@ -18,10 +18,4 @@ jobs:
           deno-version: 1.3
 
       - name: Format
-        run: deno fmt --check
-
-      - name: Lint
-        run: deno lint --unstable
-
-      - name: Tests
-        run: deno test --unstable
+        run: deno fmt --check mod.ts types.ts

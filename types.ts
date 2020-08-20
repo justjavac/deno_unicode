@@ -1,0 +1,49 @@
+export interface UnicodeItem {
+  value: string;
+  name: string;
+  category: Category;
+  class: string;
+  bidirectional_category: string;
+  mapping: string;
+  decimal_digit_value: string;
+  digit_value: string;
+  numeric_value: string;
+  mirrored: string;
+  unicode_name: string;
+  comment: string;
+  uppercase_mapping: string;
+  lowercase_mapping: string;
+  titlecase_mapping: string;
+  symbol: string;
+}
+
+export type Category =
+  | "Cc"
+  | "Cf"
+  | "Co"
+  | "Cs"
+  | "Ll"
+  | "Lm"
+  | "Lo"
+  | "Lt"
+  | "Lu"
+  | "Mc"
+  | "Me"
+  | "Mn"
+  | "Nd"
+  | "Nl"
+  | "No"
+  | "Pc"
+  | "Pd"
+  | "Pe"
+  | "Pf"
+  | "Pi"
+  | "Po"
+  | "Ps"
+  | "Sc"
+  | "Sk"
+  | "Sm"
+  | "So"
+  | "Zl"
+  | "Zp"
+  | "Zs";
