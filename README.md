@@ -41,10 +41,10 @@ output:
 **recommend**
 
 ```ts
-import Co from "https://deno.land/x/unicode/category/Co.ts";
+import So from "https://deno.land/x/unicode/category/So.ts";
 
 const code = "♥".charCodeAt(0);  // 9829
-console.log(Co[code]);
+console.log(So[code]);
 ```
 
 ## License
