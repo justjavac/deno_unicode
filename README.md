@@ -17,7 +17,7 @@ console.log(unicode[code]);
 
 output:
 
-```json
+```ts
 {
   value: '2665',
   name: 'BLACK HEART SUIT',
