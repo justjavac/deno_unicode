@@ -1,7 +1,7 @@
 # deno_unicode
 
 [![tag](https://img.shields.io/github/release/justjavac/deno_unicode)](https://github.com/justjavac/deno_unicode/releases)
-[![Build Status](https://github.com/justjavac/deno_unicode/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno_unicode/actions)
+[![ci](https://github.com/justjavac/deno_unicode/actions/workflows/ci.yml/badge.svg)](https://github.com/justjavac/deno_unicode/actions/workflows/ci.yml)
 [![license](https://img.shields.io/github/license/justjavac/deno_unicode)](https://github.com/justjavac/deno_unicode/blob/master/LICENSE)
 
 unicode lookup table, provides data from http://unicode.org/Public/UNIDATA/UnicodeData.txt for Deno.
